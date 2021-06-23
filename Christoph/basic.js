@@ -57,9 +57,16 @@
 // console.log(arr[1][1], arr[4][2], arr[5][3], arr[2][3], arr[2][1]);
 
                                     // ---------------------Advanced----------------------------------
-var arr = [ ["Vienna", "Madrid", "Tokyo"], ["is", "has", "does"], ["a", "an"], ["nice", "sweet", "bad"], ["city", "state", "venue"] ];
-document.write(arr[0][0], "<br>", arr[1][0], "<br>", arr[2][0], "<br>", arr[3][0], "<br>", arr[4][0]);
+// var arr = [ ["Vienna", "Madrid", "Tokyo"], ["is", "has", "does"], ["a", "an"], ["nice", "sweet", "bad"], ["city", "state", "venue"] ];
+// document.write(arr[0][0], "<br>", arr[1][0], "<br>", arr[2][0], "<br>", arr[3][0], "<br>", arr[4][0]);
 
-var string1 = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
+// var string1 = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
+// document.write("<br><br>",string1.split("$").join(" "));
 
-document.write("<br><br>",string1.split("$").join(" "));
+                                    // ---------------------extra exercise----------------------------------
+var extra = "Hey there, i am a javascript developer, and i live in vienna";
+document.write("<br><br>", extra.substring(10, 38), ".");
+
+var extra1 = ['apple', 'banana', 'kiwi'];
+extra1.splice(2, 0, "orange", "strawberry")
+console.log(extra1);
